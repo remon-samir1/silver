@@ -126,7 +126,7 @@ const Page = () => {
       //   delay: 0.5
       // });
 
-      const buttons = buttonsRef.current.querySelectorAll('button');
+      const buttons = buttonsRef.current.querySelectorAll('.link');
       buttons.forEach(button => {
         const handleMouseEnter = () => {
           gsap.to(button, {
@@ -254,11 +254,11 @@ const Page = () => {
             لوريم إيبسوم دولور سيت أميت كونسيكتتور. بيبندوم إيبسوم أ مونتيس أورسي.
           </p>
           <div ref={buttonsRef} className="mt-4 opacity-0 flex items-center gap-4">
-            <Link href='/contact' className="flex items-center gap-2 py-2 px-8 bg-[#DEFFED] rounded-3xl transition-all duration-300">
+            <Link href='/contact' className="flex link items-center gap-2 py-2 px-8 bg-[#DEFFED] rounded-3xl transition-all duration-300">
               <span className="text-[1.1rem] font-medium text-textColor">اتصل بنا</span>
               <Icon icon="material-symbols:arrow-back-rounded" className="text-textColor" width="24" height="24" />
             </Link>
-            <Link href='/pricing' className="flex items-center gap-2 py-2 px-8 bg-main rounded-3xl transition-all duration-300">
+            <Link href='/pricing' className="flex link items-center gap-2 py-2 px-8 bg-main rounded-3xl transition-all duration-300">
               <span className="text-[1.1rem] font-medium text-white"> ابدأ الان</span>
               <Icon icon="material-symbols:arrow-back-rounded" className="text-white" width="24" height="24" />
             </Link>

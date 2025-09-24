@@ -138,6 +138,7 @@ const LandingSection2 = () => {
             src="/section2.png"
             width={100}
             height={100}
+            unoptimized
             className="w-full h-[47.6rem] object-cover"
             alt="Web development services"
           />
