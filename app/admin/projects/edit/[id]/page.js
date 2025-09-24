@@ -14,7 +14,7 @@ const Page = () => {
   return (
     <div className="border mt-3 border-stroke px-5 py-6 rounded">
       <h3 className="text-[1.3rem] font-bold text-textColor">
-        إضافة مشروع جديد
+      تعديل المشروع
       </h3>
       <form>
         <div className="mt-4 border border-stroke rounded px-4 py-5">
@@ -198,7 +198,7 @@ const Page = () => {
         </div>
 
         <div className="mt-8 flex gap-5 item-center">
-          <button className="text-base font-medium text-white bg-main border border-main px-7 hover:bg-white hover:text-main duration-500 py-2 rounded-sm">حفظ المشروع</button>
+          <button className="text-base font-medium text-white bg-main border border-main px-7 hover:bg-white hover:text-main duration-500 py-2 rounded-sm">حفظ التغييرات</button>
           <Link href='/admin/projects' className="text-base font-medium text-main bg-white border border-main px-14 py-2 rounded-sm hover:bg-main hover:text-white duration-500">الغاء</Link>
         </div>
       </form>

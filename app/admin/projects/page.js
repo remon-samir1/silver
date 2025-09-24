@@ -144,13 +144,13 @@ const Page = () => {
               {data.title}
             </p>
             <div className="mt-5 flex items-center gap-4">
-              <button className="flex items-center justify-center gap-3 flex-1 p-2 hover:shadow-light duration-300 bg-main rounded-sm border border-main">
+              <Link href='/admin/projects/view/id' className="flex items-center justify-center gap-3 flex-1 p-2 hover:shadow-light duration-300 bg-main rounded-sm border border-main">
               <Icon className="text-white" icon="majesticons:eye-line" width="18" height="18" />
               <span className="text-white text-[0.8rem] font-medium">عرض التفاصيل</span>
-              </button>
-              <Link href='/admin/projects/view/id' className="flex items-center justify-center gap-3 flex-1 p-2 bg-transparent hover:bg-main group duration-300 rounded-sm border border-main">
+              </Link>
+              <Link href='/admin/projects/edit/id' className="flex items-center justify-center gap-3 flex-1 p-2 bg-transparent hover:bg-main group duration-300 rounded-sm border border-main">
               <Icon className="text-main group-hover:text-white" icon="fa-regular:edit" width="18" height="18" />
-              <span className="text-main group-hover:text-white text-[0.8rem] font-medium">عرض التفاصيل</span>
+              <span className="text-main group-hover:text-white text-[0.8rem] font-medium">تعديل المشروع</span>
               </Link>
             </div>
           </div>

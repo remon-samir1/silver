@@ -5,7 +5,7 @@ import Navbar from '../Components/Navbar/Navbar';
 import ServicesSection2 from './ServicesSection2';
 import ContactSection from '../ContactSection';
 import Footer from '../Components/Footer/Footer';
-import "./services.css"
+import "./Services.css"
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 

@@ -54,7 +54,7 @@ const Chart = () => {
             </div>
       <ResponsiveContainer width="100%" height={300}>
         <LineChart data={data}>
-          <CartesianGrid strokeDasharray="0 3" />
+          <CartesianGrid strokeDasharray="1 1" />
           <XAxis dataKey="date" tick={{dy : 10 , fontSize:"14px"}} />
           <YAxis tickFormatter={(value) => `${value / 1000} ألف`} tick={{dx : -50 , fontSize:"14px"}}/>
           <Tooltip content={<CustomTooltip />} />
