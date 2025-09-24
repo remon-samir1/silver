@@ -272,6 +272,7 @@ const Page = () => {
             ref={mainImageRef}
             width={100} 
             height={100} 
+            unoptimized
             src='/silver-bg-2.png' 
             className="w-full h-full  object-cover"
           />
