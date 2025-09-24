@@ -1,0 +1,16 @@
+.home{
+  background: url('../public/silver-bg.png') no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.section-3{
+  background: url("../public/section3.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.contact{
+  background: url("../public/contact-bg.png") no-repeat;
+  background-position: center;
+  background-size: cover; 
+}
