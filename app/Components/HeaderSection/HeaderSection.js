@@ -26,6 +26,7 @@ const HeaderSection = ({ title, link, current }) => {
         src="/header-vector.png"
         width={136}
         height={140}
+        unoptimized
         className="absolute left-[5%] top-[30%]"
         alt="Header decoration"
       />
