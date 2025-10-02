@@ -227,7 +227,7 @@ const Page = () => {
   return (
     <>
       <Navbar/>
-      <div ref={containerRef} className="home flex items-start  md:items-center px-[8%] gap-20 pt-[20vh] md:pt-12">
+      <div ref={containerRef} className="home flex items-start h-[90vh] md:h-screen md:items-center px-[8%] gap-20 pt-[20vh] md:pt-12">
         <div ref={textContentRef}>
           <p className="flex items-center gap-2">
             <span 
