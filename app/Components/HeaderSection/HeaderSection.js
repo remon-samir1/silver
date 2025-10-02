@@ -9,13 +9,13 @@ const HeaderSection = ({ title, link, current }) => {
   const imageRef = useRef(null);
 
   useEffect(() => {
-    // GSAP animation for the image
+    
     gsap.to(imageRef.current, {
-      y: -20, // Translate Y animation
+      y: -20, 
       duration: 2,
       ease: "power2.inOut",
-      yoyo: true, // Makes the animation go back and forth
-      repeat: -1 // Infinite repetition
+      yoyo: true, 
+      repeat: -1
     });
   }, []);
 

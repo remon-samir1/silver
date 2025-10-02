@@ -221,7 +221,7 @@ const Page = () => {
 
     }, containerRef);
 
-    return () => ctx.revert(); // Cleanup
+    return () => ctx.revert();
   });
 
   return (
@@ -243,22 +243,22 @@ const Page = () => {
           </p>
           <h3 
             ref={titleRef}
-            className="max-w-[495px] font-bold text-[2.8rem] opacity-0 text-white mt-4"
+            className="md:max-w-[495px] font-bold text-[2rem] md:text-[2.8rem] opacity-0 text-white mt-8 md:mt-4"
           >
             خدمات وحلول تكنولوجيا المعلومات
           </h3>
           <p 
             ref={descriptionRef}
-            className="max-w-[495px] font-light opacity-0 text-[1.2rem] text-white/80 mt-4"
+            className="md:max-w-[495px] font-light opacity-0 text-[1.2rem] text-white/80 mt-4"
           >
             لوريم إيبسوم دولور سيت أميت كونسيكتتور. بيبندوم إيبسوم أ مونتيس أورسي.
           </p>
-          <div ref={buttonsRef} className="mt-4 opacity-0 flex items-center gap-4">
-            <Link href='/contact' className="flex link items-center gap-2 py-2 px-8 bg-[#DEFFED] rounded-3xl transition-all duration-300">
+          <div ref={buttonsRef} className="mt-8 md:mt-4 opacity-0 flex flex-col md:flex-row items-center gap-4">
+            <Link href='/contact' className="flex link md:w-max  justify-center w-full items-center gap-2 py-2 px-8 bg-[#DEFFED] rounded-3xl transition-all duration-300">
               <span className="text-[1.1rem] font-medium text-textColor">اتصل بنا</span>
               <Icon icon="material-symbols:arrow-back-rounded" className="text-textColor" width="24" height="24" />
             </Link>
-            <Link href='/pricing' className="flex link items-center gap-2 py-2 px-8 bg-main rounded-3xl transition-all duration-300">
+            <Link href='/pricing' className="flex link md:w-max w-full justify-center   items-center gap-2 py-2 px-8 bg-transparent border border-white md:border-none md:bg-main rounded-3xl transition-all duration-300">
               <span className="text-[1.1rem] font-medium text-white"> ابدأ الان</span>
               <Icon icon="material-symbols:arrow-back-rounded" className="text-white" width="24" height="24" />
             </Link>
@@ -266,7 +266,7 @@ const Page = () => {
         </div>
         <div 
           ref={imageContainerRef}
-          className="w-[30.5rem] opacity-0 h-[30.5rem] self-center relative mt-6"
+          className="w-[30.5rem] md:inline-block hidden opacity-0 h-[30.5rem] self-center relative mt-6"
         >
           <Image 
             ref={mainImageRef}

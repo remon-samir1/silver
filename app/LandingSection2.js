@@ -128,10 +128,10 @@ const LandingSection2 = () => {
   };
 
   return (
-    <div className="bg-main">
+    <div className="md:bg-main bg-white">
       <div 
         ref={sectionRef}
-        className="px-[5%] rounded-tr-[400px] py-10 bg-white flex items-start gap-20"
+        className="px-[5%] rounded-tr-[400px] py-10 bg-white flex flex-col-reverse md:flex-row items-start gap-20"
       >
         <div ref={imageRef} className="flex-1">
           <Image

@@ -141,7 +141,7 @@ const LandingSection4 = () => {
         <Image src="/vector1.png" className="absolute top-[10%] right-[4%]" width={52} height={71} alt="About our company" />
         <Image src="/vector2.png" className="absolute top-[50%] left-[5%]" width={18} height={71} alt="About our company" />
       
-    <div ref={sectionRef} className="px-[5%] rounded-bl-[250px] py-20 flex items-start gap-20 bg-white">
+    <div ref={sectionRef} className="px-[5%] rounded-bl-[250px] py-20 flex flex-col-reverse md:flex-row items-start gap-20 bg-white">
       <div ref={imageRef} className="flex-1">
         <Image src="/section4.png" width={646} height={646} alt="About our company" />
       </div>
