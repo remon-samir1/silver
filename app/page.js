@@ -289,9 +289,9 @@ const Page = () => {
       <LandingSection3/>
       <LandingSection4/>
       <LandingSection5/>
-      <Testmonials/>
+      {/* <Testmonials/>
       <ContactSection/>
-      <Footer/>
+      <Footer/> */}
     </>
   );
 };
